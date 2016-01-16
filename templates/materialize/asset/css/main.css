@@ -108,9 +108,9 @@ img.user-image {
 .card-panel{
     margin: 0.5rem 0 .5rem 0;
 }
-p {
-   font-weight: bold;
-}
+#p {
+#   font-weight: bold;
+#}
 pre {
     display: block;
     padding: 9.5px;
