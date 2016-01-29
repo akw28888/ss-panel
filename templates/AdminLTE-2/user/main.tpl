@@ -22,7 +22,7 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <style type="text/css">body{font-family:"Microsoft YaHei";}</style>
+    <style type="text/css">body,h1,h2,h3,h4,h5,h6{font-family:"Microsoft YaHei";}</style>
 </head>
 <body class="skin-blue">
 <!-- Site wrapper -->

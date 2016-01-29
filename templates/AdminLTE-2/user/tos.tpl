@@ -15,6 +15,7 @@
     <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style type="text/css">body,h1,h2,h3,h4,h5,h6{font-family:"Microsoft YaHei";}</style>
 </head>
 
 <body>
