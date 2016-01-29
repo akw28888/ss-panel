@@ -37,7 +37,7 @@
 	    </div>
 	  	<a href="#!" class="cd-top btn-floating red darken-1 waves-effect" title="回到顶部">Top</a>
 	    <div class="footer-copyright">
-	      <div class="container" font="Jura"> &copy; Copyright 2015-2016 Huairen Group. 沪ICP备15043299号-8    Powered by ss-panel</div>
+	      <div class="container" font="Jura"> &copy; Copyright 2015-2016 Huairen Group. 沪ICP备15043299号-8
 		      <div class="grey-text text-lighten-4 right">Processed in <{$Runtime->Stop()}> <{$Runtime->SpendTime()}> ms
 		      </div>
 	      </div>
