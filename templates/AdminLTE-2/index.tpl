@@ -4,7 +4,6 @@
    <{include file='nav.tpl'}>
 
     <div class="jumbotron">
-        <h2><{$site_name}></h2>
         <p class="lead"><{$index_Announcement}><{* 每个月5G流量，美国节点。 *}></p>
         <p><{$index_button}><{* 按钮 *}></p>
     </div>

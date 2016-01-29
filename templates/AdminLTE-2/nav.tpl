@@ -5,4 +5,5 @@
         <li role="presentation"><a href="user/register.php">注册</a></li>
         <li role="presentation"><a href="user/index.php">登录</a></li>
     </ul>
+    <h3 class="text-muted"><{$site_name}></h3>
 </div>
