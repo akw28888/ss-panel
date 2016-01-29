@@ -45,7 +45,7 @@
 
 <footer class="footer">
     <div class="container">
-        <p class="text-muted"><strong>Copyright &copy; <{date('Y')}> <a href="#"><{$site_name}></a>.</strong> All rights reserved. Powered by  <b>ss-panel</b> <{$version}> </p>
+        <p class="text-muted"><strong>&copy; Copyright 2015-2016 Huairen Group.</strong> All rights reserved. 沪ICP备15043299号-8</p>
     </div>
 </footer>
 
