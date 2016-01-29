@@ -1,5 +1,5 @@
 <div class="footer">
-    <p>&copy; <{$site_name}><{date('Y')}>  Powered by <a href="https://github.com/orvice/ss-panel">ss-panel</a> <{$version}>
+    <p>&copy; 2015-2016 Huairen Group. 沪ICP备15043299号-8
         Processed in <{$Runtime->Stop()}>
        <{$Runtime->SpendTime()}>ms
     </p>
