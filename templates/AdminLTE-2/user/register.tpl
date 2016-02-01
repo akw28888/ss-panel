@@ -81,8 +81,8 @@
 <!-- iCheck -->
 <script src="<{$resources_dir}>/asset/js/icheck.min.js" type="text/javascript"></script>
 <!-- AES -->
-<script type="text/javascript" src="<{$public}>/js_aes/aes.js?<{$version}><{date('Ym')}>"></script>
-<script type="text/javascript" src="<{$public}>/js_aes/aes-ctr.js?<{$version}><{date('Ym')}>"></script>
+<script type="text/javascript" src="<{$public}>/js_aes/aes.js"></script>
+<script type="text/javascript" src="<{$public}>/js_aes/aes-ctr.js"></script>
 <script>
     $(function () {
         $('input').iCheck({

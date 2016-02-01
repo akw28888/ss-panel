@@ -76,7 +76,7 @@
 <{extends file="Public_javascript.tpl" append}> <{block name="javascript"}>
 <{* 请在下面加入你的 javascript *}>
 
-<script type="text/javascript" src="<{$resources_dir}>/asset/js/Prompt_message.js?<{$version}><{date('Ym')}>"></script>
+<script type="text/javascript" src="<{$resources_dir}>/asset/js/Prompt_message.js"></script>
 <script type="text/javascript">
   _Prompt_msg();
   // 过滤HTML标签以及&nbsp 来自：http://www.cnblogs.com/liszt/archive/2011/08/16/2140007.html

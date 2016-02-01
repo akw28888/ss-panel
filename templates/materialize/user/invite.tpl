@@ -85,7 +85,7 @@
 <{include file='footer.tpl'}> <{/block}> <{* 以上继承内容到父模板header.tpl 中的 contents *}>
 <{extends file="Public_javascript.tpl" append}> <{block name="javascript"}>
 <{* 请在下面加入你的 javascript *}>
-<script type="text/javascript" src="<{$resources_dir}>/asset/js/Prompt_message.js?<{$version}><{date('Ym')}>"></script>
+<script type="text/javascript" src="<{$resources_dir}>/asset/js/Prompt_message.js"></script>
 <script type="text/javascript">
   _Prompt_msg();
 </script>

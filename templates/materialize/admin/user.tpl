@@ -1,8 +1,8 @@
 <{extends file="header.tpl"}><{block name="title" prepend}>用户管理 - <{/block}><{block name="contents"}>
     <!-- 加载dataTables样式文件 dataTables.bootstrap.css -->
-    <link href="<{$resources_dir}>/asset/plugins/datatables/media/css/jquery.dataTables.min.css?<{$version}><{date('Ym')}>" rel="stylesheet" type="text/css" />
-    <link href="<{$resources_dir}>/asset/plugins/datatables/media/css/dataTables.bootstrap.css?<{$version}><{date('Ym')}>" rel="stylesheet" type="text/css" />
-    <link href="<{$resources_dir}>/asset/plugins/datatables/media/css/dataTables.colVis.min.css?<{$version}><{date('Ym')}>" rel="stylesheet" type="text/css" />
+    <link href="<{$resources_dir}>/asset/plugins/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <link href="<{$resources_dir}>/asset/plugins/datatables/media/css/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="<{$resources_dir}>/asset/plugins/datatables/media/css/dataTables.colVis.min.css" rel="stylesheet" type="text/css" />
     <style>
       .btn-sm {
           padding: 0 1rem;
@@ -106,14 +106,14 @@
 <{extends file="Public_javascript.tpl" append}> <{block name="javascript"}>
 <{* 请在下面加入你的 javascript *}>
 <!-- 下面加载 dataTables 要用的 js 文件 -->
-<script src="<{$resources_dir}>/asset/plugins/datatables/media/js/jquery.dataTables.min.js?<{$version}><{date('Ym')}>" type="text/javascript"></script>
-<script type="text/javascript" language="javascript" src="<{$resources_dir}>/asset/plugins/datatables/media/js/file-size.js?<{$version}><{date('Ym')}>"></script>
-<script type="text/javascript" language="javascript" src="<{$resources_dir}>/asset/plugins/datatables/media/js/dataTables.colVis.min.js?<{$version}><{date('Ym')}>"></script>
+<script src="<{$resources_dir}>/asset/plugins/datatables/media/js/jquery.dataTables.min.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript" src="<{$resources_dir}>/asset/plugins/datatables/media/js/file-size.js"></script>
+<script type="text/javascript" language="javascript" src="<{$resources_dir}>/asset/plugins/datatables/media/js/dataTables.colVis.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function () {
         $('#user').dataTable({
             "language": {
-                "url": "<{$resources_dir}>/asset/plugins/datatables/media/Chinese.json?<{$version}><{date('Ym')}>"
+                "url": "<{$resources_dir}>/asset/plugins/datatables/media/Chinese.json"
             },
             "bStateSave": true,
             columnDefs: [

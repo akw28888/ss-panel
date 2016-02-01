@@ -63,9 +63,9 @@
 <{* 请在下面加入你的 javascript *}>
 
 <!-- AES -->
-<script type="text/javascript" src="<{$public}>/js_aes/aes.js?<{$version}><{date('Ym')}>"></script>
-<script type="text/javascript" src="<{$public}>/js_aes/aes-ctr.js?<{$version}><{date('Ym')}>"></script>
-<script type="text/javascript" src="<{$resources_dir}>/asset/js/Prompt_message.js?<{$version}><{date('Ym')}>"></script>
+<script type="text/javascript" src="<{$public}>/js_aes/aes.js"></script>
+<script type="text/javascript" src="<{$public}>/js_aes/aes-ctr.js"></script>
+<script type="text/javascript" src="<{$resources_dir}>/asset/js/Prompt_message.js"></script>
 <script type="text/javascript">
 	_Prompt_ss_msg();
 	_Prompt_msg();
