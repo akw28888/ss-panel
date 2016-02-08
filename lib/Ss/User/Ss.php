@@ -79,7 +79,7 @@ class Ss {
     //check is able to check in
     function is_able_to_check_in(){
         $now = time();
-        if( $now-$this->get_last_check_in_time() > 3600*22 ){
+        if( $now-$this->get_last_check_in_time() > 3600*24 ){
             return 1;
         }else{
             return 0;
