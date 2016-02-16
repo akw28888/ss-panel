@@ -47,21 +47,16 @@
             <div class="col s12 m12 l6">
               <div class="card-panel hoverable">
                       <span class="white-text">
-                      <!--h5 class="header center black-text">签到获取流量</h5-->
-                      <h5 class="header center black-text">新年流量紅包</h5>
+                      <h5 class="header center black-text">签到获取流量</h5>
                       <div class="black-text">
-                        <!--p> 每天可以签到一次。</p-->
-			<p> 過年新春期間每天都能領紅包！</p>
+                        <p> 每天可以签到一次。</p>
                         <{if $oo->is_able_to_check_in()}>
-                            <!--p id="checkin-btn"> <button id="checkin" class="btn waves-effect waves-light light-blue lighten-1 hoverable">签到</button></p-->
-                            <p id="checkin-btn"> <button id="checkin" class="btn waves-effect waves-light light-blue lighten-1 hoverable">領取</button></p>
+                            <p id="checkin-btn"> <button id="checkin" class="btn waves-effect waves-light light-blue lighten-1 hoverable">签到</button></p>
                         <{else}>
-                            <!--p><a class="btn waves-effect waves-light light-blue lighten-1 disabled" href="#!">已签到</a> </p-->
-                            <p><a class="btn waves-effect waves-light light-blue lighten-1 disabled" href="#!">已領取</a> </p>
+                            <p><a class="btn waves-effect waves-light light-blue lighten-1 disabled" href="#!">已签到</a> </p>
                         <{/if}>
                         <p id="checkin-msg" ></p>
-                        <!--p>上次签到时间：<code><{date('Y-m-d H:i:s',$oo->get_last_check_in_time())}></code></p-->
-                        <p>上次領取時間：<code><{date('Y/m/d',$oo->get_last_check_in_time())}></code></p>
+                        <p>上次签到时间：<code><{date('Y-m-d H:i:s',$oo->get_last_check_in_time())}></code></p>
                       </div>
                  </span>     
                 </div>
