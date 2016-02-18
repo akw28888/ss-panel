@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <script type="text/javascript" src="<{$resources_dir}>/asset/js/jquery-2.1.1.min.jss"></script>
+        <script type="text/javascript" src="<{$resources_dir}>/asset/js/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="<{$resources_dir}>/asset/js/materialize.min.js"></script>
         <script type="text/javascript" src="<{$resources_dir}>/asset/js/Prompt_message.js"></script>
         <!-- AES -->
